@@ -97,14 +97,17 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Book Cover Placeholder */}
+          {/* Book Cover */}
           <div className="max-w-md mx-auto mb-12">
-            <div className="relative aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden bg-gradient-to-br from-purple-400 via-pink-400 to-orange-400 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="text-6xl mb-4">📖</div>
-                <p className="text-white text-2xl font-bold mb-2">Корица на Книгата</p>
-                <p className="text-white/80 text-sm">(Поставете вашата корица тук)</p>
-              </div>
+            <div className="relative aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden bg-gray-100">
+              <Image
+                src="/images/book-cover.jpg"
+                alt="Корица на книгата"
+                fill
+                className="object-cover"
+                priority
+                unoptimized
+              />
             </div>
           </div>
 
@@ -177,12 +180,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
             {/* Page Preview 1 */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-blue-200 via-purple-200 to-pink-200 flex items-center justify-center p-8">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📄</div>
-                  <p className="text-gray-700 text-lg font-semibold">Страница 1</p>
-                  <p className="text-gray-500 text-sm mt-2">(Поставете снимка на страница)</p>
-                </div>
+              <div className="aspect-[4/3] relative bg-gray-100">
+                <Image
+                  src="/images/page-1.jpg"
+                  alt="Страница 1"
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
               <div className="p-6">
                 <p className="text-gray-600 italic">
@@ -193,12 +198,14 @@ export default function Home() {
 
             {/* Page Preview 2 */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-green-200 via-yellow-200 to-orange-200 flex items-center justify-center p-8">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📄</div>
-                  <p className="text-gray-700 text-lg font-semibold">Страница 2</p>
-                  <p className="text-gray-500 text-sm mt-2">(Поставете снимка на страница)</p>
-                </div>
+              <div className="aspect-[4/3] relative bg-gray-100">
+                <Image
+                  src="/images/page-2.jpg"
+                  alt="Страница 2"
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
               <div className="p-6">
                 <p className="text-gray-600 italic">
@@ -209,12 +216,14 @@ export default function Home() {
 
             {/* Page Preview 3 */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-pink-200 via-purple-200 to-indigo-200 flex items-center justify-center p-8">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📄</div>
-                  <p className="text-gray-700 text-lg font-semibold">Страница 3</p>
-                  <p className="text-gray-500 text-sm mt-2">(Поставете снимка на страница)</p>
-                </div>
+              <div className="aspect-[4/3] relative bg-gray-100">
+                <Image
+                  src="/images/page-3.jpg"
+                  alt="Страница 3"
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
               <div className="p-6">
                 <p className="text-gray-600 italic">
@@ -225,12 +234,14 @@ export default function Home() {
 
             {/* Page Preview 4 */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
-              <div className="aspect-[4/3] bg-gradient-to-br from-yellow-200 via-orange-200 to-red-200 flex items-center justify-center p-8">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📄</div>
-                  <p className="text-gray-700 text-lg font-semibold">Страница 4</p>
-                  <p className="text-gray-500 text-sm mt-2">(Поставете снимка на страница)</p>
-                </div>
+              <div className="aspect-[4/3] relative bg-gray-100">
+                <Image
+                  src="/images/page-4.jpg"
+                  alt="Страница 4"
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
               <div className="p-6">
                 <p className="text-gray-600 italic">

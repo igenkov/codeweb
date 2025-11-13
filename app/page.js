@@ -38,7 +38,7 @@ export default function Home() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-gradient-to-b from-peach-50 to-coral-50 flex items-center justify-center px-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
             <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -52,14 +52,14 @@ export default function Home() {
             <p className="text-lg text-gray-600 mb-8">
               Вашата заявка е получена успешно. Ще се свържем с Вас скоро с подробности за книгата.
             </p>
-            <div className="bg-purple-50 rounded-2xl p-6 mb-6">
+            <div className="bg-peach-50 rounded-2xl p-6 mb-6">
               <p className="text-gray-700">
                 Проверете имейла си за потвърждение. Ако не го виждате, погледнете в спам папката.
               </p>
             </div>
             <button
               onClick={() => setSubmitted(false)}
-              className="text-purple-600 hover:text-purple-700 font-semibold"
+              className="text-peach-600 hover:text-peach-700 font-semibold"
             >
               ← Назад към началната страница
             </button>
@@ -70,14 +70,14 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-purple-50 via-pink-50 to-orange-50">
+    <main className="min-h-screen bg-gradient-to-b from-peach-50 via-sand-50 to-sage-50">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Вълшебна История за<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-peach-600 to-coral-600">
                 Приятелство и Доброта
               </span>
             </h1>
@@ -86,13 +86,13 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <div className="bg-white rounded-full px-6 py-3 shadow-md">
-                <span className="text-purple-600 font-semibold">👶 За 3-6 години</span>
+                <span className="text-peach-600 font-semibold">👶 За 3-6 години</span>
               </div>
               <div className="bg-white rounded-full px-6 py-3 shadow-md">
-                <span className="text-pink-600 font-semibold">🇧🇬 На български</span>
+                <span className="text-coral-600 font-semibold">🇧🇬 На български</span>
               </div>
               <div className="bg-white rounded-full px-6 py-3 shadow-md">
-                <span className="text-orange-600 font-semibold">❤️ С любов написана</span>
+                <span className="text-sage-600 font-semibold">❤️ С любов написана</span>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="text-center">
             <a
               href="#rezervacia"
-              className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+              className="inline-block bg-gradient-to-r from-peach-600 to-coral-600 text-white text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
             >
               Резервирай Сега 🎁
             </a>
@@ -135,7 +135,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
             <div className="text-center">
-              <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-peach-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-4xl">🤝</span>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Учи на Приятелство</h3>
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-coral-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-4xl">🎨</span>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Красиви Илюстрации</h3>
@@ -155,7 +155,7 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-4xl">💝</span>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Позитивни Ценности</h3>
@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Book Preview Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-purple-50 to-pink-50">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-peach-50 to-coral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-gray-900 mb-4">
             Надникнете в Книгата
@@ -261,7 +261,7 @@ export default function Home() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-purple-50 rounded-3xl p-8">
+            <div className="bg-peach-50 rounded-3xl p-8">
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className="text-yellow-400 text-xl">⭐</span>
@@ -273,7 +273,7 @@ export default function Home() {
               <p className="font-semibold text-gray-900">Мария, мама на 4-годишна</p>
             </div>
 
-            <div className="bg-pink-50 rounded-3xl p-8">
+            <div className="bg-coral-50 rounded-3xl p-8">
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className="text-yellow-400 text-xl">⭐</span>
@@ -285,7 +285,7 @@ export default function Home() {
               <p className="font-semibold text-gray-900">Петър, баща на 5-годишна</p>
             </div>
 
-            <div className="bg-orange-50 rounded-3xl p-8">
+            <div className="bg-sand-50 rounded-3xl p-8">
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className="text-yellow-400 text-xl">⭐</span>
@@ -301,7 +301,7 @@ export default function Home() {
       </section>
 
       {/* Lead Capture Form Section */}
-      <section id="rezervacia" className="py-16 md:py-24 bg-gradient-to-b from-purple-600 to-pink-600">
+      <section id="rezervacia" className="py-16 md:py-24 bg-gradient-to-b from-peach-600 to-coral-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
             <div className="text-center mb-10">
@@ -325,7 +325,7 @@ export default function Home() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-purple-500 focus:outline-none text-lg transition-colors"
+                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-peach-500 focus:outline-none text-lg transition-colors"
                   placeholder="Иван Петров"
                 />
               </div>
@@ -341,7 +341,7 @@ export default function Home() {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-purple-500 focus:outline-none text-lg transition-colors"
+                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-peach-500 focus:outline-none text-lg transition-colors"
                   placeholder="ivan@example.com"
                 />
               </div>
@@ -356,12 +356,12 @@ export default function Home() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-purple-500 focus:outline-none text-lg transition-colors"
+                  className="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:border-peach-500 focus:outline-none text-lg transition-colors"
                   placeholder="+359 888 123 456"
                 />
               </div>
 
-              <div className="bg-purple-50 rounded-xl p-6">
+              <div className="bg-peach-50 rounded-xl p-6">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">🎁</span>
                   <div>
@@ -376,7 +376,7 @@ export default function Home() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xl font-bold py-5 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-gradient-to-r from-peach-600 to-coral-600 text-white text-xl font-bold py-5 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? 'Изпращане...' : 'Резервирай Книгата 📚'}
               </button>

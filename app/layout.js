@@ -4,7 +4,11 @@ export const metadata = {
   title: 'Детска Книга за Приятелство | Книга за Деца 3-6 години',
   description: 'Откройте вълшебната история за приятелство и взаимопомощ. Идеална книга за деца от 3 до 6 години на български език.',
   keywords: 'детска книга, книга за деца, приятелство, деца 3-6 години, български език',
-  viewport: 'width=device-width, initial-scale=1',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({ children }) {

@@ -117,7 +117,7 @@ export default function Home() {
               href="#rezervacia"
               className="inline-block bg-gradient-to-r from-peach-600 to-coral-600 text-white text-lg md:text-xl font-bold px-8 md:px-12 py-4 md:py-5 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
             >
-              Резервирай Сега 🎁
+              Запази Своята Книга 📚
             </a>
           </div>
         </div>
@@ -378,7 +378,7 @@ export default function Home() {
                 disabled={loading}
                 className="w-full bg-gradient-to-r from-peach-600 to-coral-600 text-white text-xl font-bold py-5 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {loading ? 'Изпращане...' : 'Резервирай Книгата 📚'}
+                {loading ? 'Изпращане...' : 'Запази Своята Книга 📚'}
               </button>
 
               <p className="text-center text-sm text-gray-500">

@@ -137,7 +137,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-10 md:gap-12 lg:gap-16">
             <div className="text-center group">
-              <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
+              <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
                 <Image
                   src="/images/icon-friendship.png"
                   alt="Приятелство"
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
 
             <div className="text-center group">
-              <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
+              <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
                 <Image
                   src="/images/icon-illustrations.png"
                   alt="Илюстрации"
@@ -171,7 +171,7 @@ export default function Home() {
             </div>
 
             <div className="text-center group">
-              <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
+              <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
                 <Image
                   src="/images/icon-values.png"
                   alt="Ценности"

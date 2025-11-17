@@ -135,7 +135,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-10 md:gap-12 lg:gap-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 lg:gap-16">
             <div className="text-center group">
               <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
                 <Image
@@ -184,6 +184,23 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">Позитивни Ценности</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 История, която насърчава добротата, емпатията и желанието да помагаме на другите
+              </p>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative border-2 border-gray-100">
+                <Image
+                  src="/images/icon-emotional.png"
+                  alt="Емоционално развитие"
+                  width={80}
+                  height={80}
+                  className="object-contain"
+                  unoptimized
+                />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">Емоционално Развитие</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                Засяга важни моменти от емоционалното развитие на детето
               </p>
             </div>
           </div>

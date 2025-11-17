@@ -137,8 +137,15 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-10 md:gap-12 lg:gap-16">
             <div className="text-center group">
-              <div className="w-24 h-24 bg-peach-100 rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
-                <span className="text-5xl">🤝</span>
+              <div className="w-24 h-24 bg-peach-100 rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative">
+                <Image
+                  src="/images/icon-friendship.png"
+                  alt="Приятелство"
+                  width={80}
+                  height={80}
+                  className="object-contain"
+                  unoptimized
+                />
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">Учи на Приятелство</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -147,8 +154,15 @@ export default function Home() {
             </div>
 
             <div className="text-center group">
-              <div className="w-24 h-24 bg-coral-100 rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
-                <span className="text-5xl">🎨</span>
+              <div className="w-24 h-24 bg-coral-100 rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative">
+                <Image
+                  src="/images/icon-illustrations.png"
+                  alt="Илюстрации"
+                  width={80}
+                  height={80}
+                  className="object-contain"
+                  unoptimized
+                />
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">Красиви Илюстрации</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -157,8 +171,15 @@ export default function Home() {
             </div>
 
             <div className="text-center group">
-              <div className="w-24 h-24 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
-                <span className="text-5xl">💝</span>
+              <div className="w-24 h-24 bg-sage-100 rounded-full flex items-center justify-center mx-auto mb-8 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300 overflow-hidden relative">
+                <Image
+                  src="/images/icon-values.png"
+                  alt="Ценности"
+                  width={80}
+                  height={80}
+                  className="object-contain"
+                  unoptimized
+                />
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">Позитивни Ценности</h3>
               <p className="text-gray-600 text-lg leading-relaxed">

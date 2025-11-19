@@ -780,26 +780,33 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Sticky Buy Button */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t-2 border-gray-200 shadow-2xl z-50 md:hidden">
-        <div className="px-4 py-3">
-          <a
-            href="#rezervacia"
-            className="block w-full bg-gradient-to-r from-peach-600 to-coral-600 text-white text-lg font-bold py-4 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 text-center"
-          >
-            Запази Своята Книга 📚
-          </a>
-        </div>
+      {/* Sticky Buy Button - Mobile */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
+        <a href="#rezervacia" className="block">
+          <div className="relative w-full h-20">
+            <Image
+              src="/images/buy-button-mobile.png"
+              alt="Запази Своята Книга"
+              fill
+              className="object-cover"
+              unoptimized
+            />
+          </div>
+        </a>
       </div>
 
       {/* Sticky Buy Button - Desktop */}
       <div className="hidden md:block fixed bottom-8 right-8 z-50">
-        <a
-          href="#rezervacia"
-          className="flex items-center gap-3 bg-gradient-to-r from-peach-600 to-coral-600 text-white text-lg font-bold px-8 py-4 rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300"
-        >
-          <span>Запази Книгата</span>
-          <span className="text-2xl">📚</span>
+        <a href="#rezervacia" className="block">
+          <div className="relative w-64 h-16 hover:scale-105 transition-transform duration-300 cursor-pointer">
+            <Image
+              src="/images/buy-button-desktop.png"
+              alt="Запази Книгата"
+              fill
+              className="object-contain"
+              unoptimized
+            />
+          </div>
         </a>
       </div>
     </main>

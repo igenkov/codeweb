@@ -75,6 +75,30 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-peach-50 via-sand-50 to-sage-50">
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-16 md:pt-24 pb-20 md:pb-32">
+        {/* Floating Character - Left Side (Desktop) */}
+        <div className="hidden lg:block absolute left-0 top-1/4 w-48 xl:w-64 opacity-90 pointer-events-none">
+          <Image
+            src="/images/character-hero-left.png"
+            alt="Персонаж"
+            width={256}
+            height={256}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
+        {/* Floating Character - Right Side (Desktop) */}
+        <div className="hidden lg:block absolute right-0 top-1/3 w-48 xl:w-64 opacity-90 pointer-events-none">
+          <Image
+            src="/images/character-hero-right.png"
+            alt="Персонаж"
+            width={256}
+            height={256}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight tracking-tight">
@@ -126,7 +150,19 @@ export default function Home() {
       </section>
 
       {/* What Makes It Special Section */}
-      <section className="py-20 md:py-32 bg-white">
+      <section className="py-20 md:py-32 bg-white relative">
+        {/* Decorative Character Image */}
+        <div className="absolute top-10 right-4 md:right-10 w-32 md:w-48 opacity-80 pointer-events-none">
+          <Image
+            src="/images/character-benefits.png"
+            alt="Персонаж"
+            width={192}
+            height={192}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -210,7 +246,19 @@ export default function Home() {
       </section>
 
       {/* Book Preview Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-peach-50 to-coral-50">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-peach-50 to-coral-50 relative">
+        {/* Decorative Character - Left */}
+        <div className="hidden md:block absolute left-4 lg:left-10 top-1/3 w-40 lg:w-56 opacity-70 pointer-events-none">
+          <Image
+            src="/images/character-preview-left.png"
+            alt="Персонаж"
+            width={224}
+            height={224}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -331,7 +379,19 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-peach-50 to-sand-50">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-peach-50 to-sand-50 relative">
+        {/* Decorative Character */}
+        <div className="hidden lg:block absolute right-10 top-20 w-48 opacity-75 pointer-events-none">
+          <Image
+            src="/images/character-pricing.png"
+            alt="Персонаж"
+            width={192}
+            height={192}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -501,7 +561,19 @@ export default function Home() {
       </section>
 
       {/* Social Proof / Testimonials Section */}
-      <section className="py-20 md:py-32 bg-white">
+      <section className="py-20 md:py-32 bg-white relative">
+        {/* Decorative Character */}
+        <div className="hidden md:block absolute left-8 top-1/2 w-40 opacity-70 pointer-events-none">
+          <Image
+            src="/images/character-testimonials.png"
+            alt="Персонаж"
+            width={160}
+            height={160}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-20 leading-tight">
             Какво Казват Родителите
@@ -548,7 +620,19 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-sand-50 to-peach-50">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-sand-50 to-peach-50 relative">
+        {/* Decorative Character */}
+        <div className="hidden lg:block absolute right-8 bottom-20 w-48 opacity-75 pointer-events-none">
+          <Image
+            src="/images/character-faq.png"
+            alt="Персонаж"
+            width={192}
+            height={192}
+            className="object-contain"
+            unoptimized
+          />
+        </div>
+
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">

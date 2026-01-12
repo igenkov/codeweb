@@ -20,14 +20,11 @@ export default function Home() {
 
     // Simulate form submission - can be replaced with actual API call
     setTimeout(() => {
-      console.log('Form submitted:', formData)
+      // TODO: Replace with secure backend API call to store form data
+      // SECURITY: Removed console.log to prevent sensitive data exposure
+      // SECURITY: Removed localStorage storage to prevent PII storage in browser
       setSubmitted(true)
       setLoading(false)
-
-      // Store in localStorage as backup
-      const leads = JSON.parse(localStorage.getItem('leads') || '[]')
-      leads.push({ ...formData, date: new Date().toISOString() })
-      localStorage.setItem('leads', JSON.stringify(leads))
     }, 1000)
   }
 

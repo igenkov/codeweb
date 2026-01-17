@@ -115,7 +115,7 @@ export default function Home() {
                 <span className="text-coral-600 font-semibold text-lg">🇧🇬 На български</span>
               </div>
               <div className="bg-white rounded-full px-8 py-4 shadow-md hover:shadow-lg transition-shadow duration-200 border border-sage-100">
-                <span className="text-sage-600 font-semibold text-lg">❤️ С любов написана</span>
+                <span className="text-sage-600 font-semibold text-lg">❤️ Написана с любов</span>
               </div>
             </div>
           </div>
@@ -262,7 +262,7 @@ export default function Home() {
               Надникнете в Книгата
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Вижте примери от страниците на нашата приказка
+              Вижте примери от страниците на нашата история
             </p>
           </div>
 
@@ -861,35 +861,3 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Sticky Buy Button - Mobile */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
-        <a href="#rezervacia" className="block">
-          <div className="relative w-full h-20">
-            <Image
-              src="/images/buy-button-mobile.png"
-              alt="Запази Своята Книга"
-              fill
-              className="object-cover"
-              unoptimized
-            />
-          </div>
-        </a>
-      </div>
-
-      {/* Sticky Buy Button - Desktop */}
-      <div className="hidden md:block fixed bottom-8 right-8 z-50">
-        <a href="#rezervacia" className="block">
-          <div className="relative w-64 h-16 hover:scale-105 transition-transform duration-300 cursor-pointer">
-            <Image
-              src="/images/buy-button-desktop.png"
-              alt="Запази Книгата"
-              fill
-              className="object-contain"
-              unoptimized
-            />
-          </div>
-        </a>
-      </div>
-    </main>
-  )
-}
